@@ -1,0 +1,26 @@
+.align-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.per-box button {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    color: #76BDC0;
+    border: none;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    outline: none;
+  }
+@media (max-width: 1028px) {
+    .per-box {
+        width: "100%" 
+    }
+    .per-box .MuiSvgIcon-root {
+        font-size: 2rem;
+    }
+    
+  }

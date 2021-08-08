@@ -1,0 +1,30 @@
+.nav-button.new-home-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    height: 50px;
+    width: 50px;
+    font-size: 24px;
+    background-color: #346751;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    transition: all 0.25s ease;
+    z-index: 1;
+}
+
+.nav-button.new-home-button:hover {
+    background-color: #7F8B52;
+}
+
+/* @media (max-width: 1028px) {
+    .button {
+        position: absolute;
+        bottom: 100px;
+        right: 100px;
+        z-index: 5;
+    }
+} */

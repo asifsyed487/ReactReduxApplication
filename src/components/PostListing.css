@@ -1,0 +1,19 @@
+/* .productss {
+    margin-left: 15rem;
+    margin-right: 15rem;
+} */
+
+.boxes-margin {
+    margin: 0  15rem  15rem  15rem
+}
+
+.row {
+    justify-content: center;
+}
+
+@media (max-width: 1028px) {
+    .boxes-margin {
+        margin: 0  5rem  5rem  5rem
+    }
+    
+  }

@@ -1,0 +1,56 @@
+ .post {
+      height: 100vh;
+      overflow-y: scroll;
+  }
+
+  #individual-post-image {
+    display: flex;
+    justify-content: center;
+}
+
+#individual-post-image > img {
+    width: 50%;
+    padding: 5rem 5rem 0 5rem;
+    background-size: cover;
+}
+
+ #individual-post-title {
+    text-align: center;
+    padding: 24px 250px 24px 250px;
+    font-size: 3rem;
+    color: #333;
+    margin: 0;
+    font-family: 'Libre Baskerville', serif;
+}
+
+#individual-post-content {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    font-size: 2rem;
+    padding: 1px 200px 0px 200px;
+    margin-bottom: 80px;
+    color: #495057;
+    line-height: 1.2;
+}
+
+@media (max-width: 1028px) {
+    #individual-post-image {
+        width: 100vw;
+    }
+    #individual-post-image > img {
+        width: 100%;
+        padding: 2rem;
+        background-size: cover;
+        border-radius: 100px;
+    }
+    
+    #individual-post-title {
+        padding: 0rem 1rem 2rem 1rem;
+    }
+
+    #individual-post-content {
+        padding: 1px 60px 0px 60px;
+    }
+
+    
+  } 
